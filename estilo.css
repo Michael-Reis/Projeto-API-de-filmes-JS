@@ -1,0 +1,99 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.foto{
+    max-width: 100%;
+    display: block;
+}
+
+/* css flexbox */ 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 0 10px;
+}
+
+.footer{
+    background: #1d1e20;
+    color: white;
+    padding: 20px;
+
+}
+
+.icone{
+    width: 45px;
+}
+.iconeFacebook{
+    width: 45px;
+}
+.iconeInstagram{
+    margin-left: -5px;
+    width: 46px;
+}
+
+
+input{
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    outline: none;
+}
+
+
+.btn-enviar {
+    background-color: #14bbb8;
+    width: 150px;
+    padding: 5px;   
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#michael{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 200px;
+}
